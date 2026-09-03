@@ -131,31 +131,22 @@
   font-weight: 650;
 }
 
-.cover {
-  position: relative;
-  height: 100%;
+.title-slide {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
   background: var(--paper);
 }
 
-.cover h1 {
-  position: absolute;
-  left: 42px;
-  bottom: 29px;
-  z-index: 2;
+.title-slide h1 {
   margin: 0;
-  padding: 10px 14px;
-  background: white;
+  padding: 0 64px;
   color: var(--ink);
-  font-size: 34px;
+  font-size: 48px;
   font-weight: 650;
   line-height: 1;
   letter-spacing: -0.035em;
-}
-
-.cover-art {
-  position: absolute;
-  inset: 14px;
-  padding: 0;
 }
 
 .slidev-page {

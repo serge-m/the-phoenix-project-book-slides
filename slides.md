@@ -8,25 +8,15 @@ fonts:
   mono: IBM Plex Mono
 ---
 
-<div class="cover">
-  <div class="visual-grid cover-art">
-    <div class="art-frame">
-      <div class="frame-id">COVER A</div>
-      <div class="frame-copy">Wide exterior of the Parts Unlimited automotive-parts factory at dawn, loading bays and production halls visible, clean documentary composition, no people posing, no text or logos.</div>
-    </div>
-    <div class="art-frame">
-      <div class="frame-id">COVER B</div>
-      <div class="frame-copy">Close view through a factory doorway where a physical assembly line transitions into orderly streams of software data, restrained realistic editorial style, no words or logos.</div>
-    </div>
-  </div>
+<div class="title-slide">
   <h1>The Phoenix Project</h1>
 </div>
 
 ---
 
 <NarrativeSlide number="01" title="A company bets on Phoenix"
-  image1="Exterior of the Parts Unlimited automotive-parts factory, with a clearly visible door marked only by visual IT symbols leading into an older technology wing; retail stores and online orders implied in the distance; realistic editorial illustration, no written labels."
-  image2="Bill Palmer receiving an unexpected executive promotion in the foreground while the former CIO and VP of IT Operations leave through a distant back exit carrying boxes; Bill looks reluctant, Steve gestures toward the troubled IT floor; no text or logos."
+  image1="Documentary exterior of the Parts Unlimited factory and warehouse, with loading docks and store-delivery trucks; beside the main entrance, a side door has a small readable IT plaque and a window through which server racks are visible."
+  image2="Steve hands a reluctant Bill Palmer an executive access badge and office key at the IT-floor doorway; through the glass rear exit in the same corridor, the former CIO and VP of IT Operations carry cardboard boxes toward the parking lot."
 >
 
 <!-- Prologue and Chapter 1 -->
@@ -40,8 +30,8 @@ fonts:
 ---
 
 <NarrativeSlide number="02" title="The first fire"
-  image1="Close view of a monitor filled with visibly corrupted payroll rows and broken data symbols; Bill Palmer stares at it in shock while two nearby technicians react with alarm; failed storage hardware glows red behind them; no legible interface text."
-  image2="A chaotic IT workspace shown as tangled cables and undocumented changes converging on Brent at one workstation; engineers discover hidden system dependencies only when warning lights appear; concrete technical detail, not a posed meeting scene."
+  image1="Over-the-shoulder view of a payroll application showing repeated employee rows, blank or garbled pay fields, and red validation markers; Bill stares at the monitor in shock while a payroll specialist and technician react; a storage unit behind them shows a red fault light."
+  image2="Brent works across three monitors showing a server console, an incident ticket, and a network diagram; his phone rings, chat notifications stack up, and two engineers wait with different printed tickets while handwritten dependency notes cover the open rack beside him."
 >
 
 <!-- Chapters 2–3 -->
@@ -55,8 +45,8 @@ fonts:
 ---
 
 <NarrativeSlide number="03" title="Two systems at war"
-  image1="A fragile Phoenix software package on a conveyor between two work areas: developers push feature boxes toward release while operations engineers brace failing production servers on the other side; visual conflict between speed and stability, no text."
-  image2="Bill and Erik walking beside an automotive assembly line where parts pile up dramatically at one narrow work center while every downstream station sits idle; the physical bottleneck is unmistakable, realistic factory detail."
+  image1="At a deployment workstation, a developer presents a release manifest while an operations engineer points to failed test results and a mismatched server inventory on two monitors; a nearby rack alarm is active and the release checklist remains unsigned."
+  image2="Documentary factory-floor view: Bill and Erik in safety glasses walk beside an automotive assembly line where parts pile up before one occupied inspection station while downstream stations and workers wait idle."
 >
 
 <!-- Chapter 4 -->
@@ -72,8 +62,8 @@ fonts:
 ---
 
 <NarrativeSlide number="04" title="Make the invisible visible"
-  image1="Patty standing beside a wall-sized board as 105 project folders and change cards crowd every lane; cards visibly collide around the same production systems while maintenance and security work waits at the edges; no readable words."
-  image2="A retail payment terminal failing beside a phone showing a chaotic incident call, while a nearby calendar date is buried beneath more than one hundred change cards scheduled for the Phoenix launch; Brent tests a cable without knowing why it works."
+  image1="Patty pins cards onto a wall-sized change board crowded with 105 numbered project cards; many cards share the same short system labels and launch date, while maintenance and security cards wait in the backlog columns."
+  image2="At a store service desk, a card terminal displays a payment error while an incident bridge runs on speakerphone; Brent swaps a network cable as another technician records each attempted fix and timestamp on a paper incident log."
 >
 
 <!-- Chapters 6–8 -->
@@ -89,8 +79,8 @@ fonts:
 ---
 
 <NarrativeSlide number="05" title="The constraint has a name"
-  image1="Brent trying to work on Phoenix while phones, chat alerts, paper tickets, and coworkers interrupt from every direction; Bill observes nearby as a senior engineer records Brent’s procedure in a notebook; focused narrative composition."
-  image2="Multiple technical work streams—servers, databases, network gear, and application releases—narrow into a single workstation occupied by Brent, then emerge as a long queue; a clear human bottleneck rendered as a realistic workplace metaphor."
+  image1="Brent works at a keyboard mid-procedure while his phone rings and several engineers wait with tickets; a senior engineer photographs rack connections and writes numbered runbook steps as Bill stops another interruption at the doorway."
+  image2="Close view of a ticket dashboard with server, database, network, and release jobs all assigned to Brent and wait times increasing; beside the monitor sit matching paper change forms bearing Brent’s initials and a fully booked calendar."
 >
 
 <!-- Chapters 10–11 -->
@@ -104,8 +94,8 @@ fonts:
 ---
 
 <NarrativeSlide number="06" title="Past the point of no return"
-  image1="Side-by-side test and production server racks that are visibly mismatched, surrounded by unfinished software packages arriving faster than QA can inspect them; deployment checklists spill across operations equipment; no generic boardroom."
-  image2="A database migration progress display barely moving as the night clock advances; behind Bill, a rollback bridge to the old systems is physically retracting while Phoenix marketing material is already being delivered to stores; no legible text."
+  image1="In a deployment room, test and production racks stand side by side with visibly different hardware counts and configuration labels; a QA monitor shows a failed test run, numbered build packages accumulate in the release inbox, and an operator checks a paper checklist."
+  image2="A database migration console remains at a low percentage while the wall clock shows late night; the rollback checkpoint is crossed out on a printed launch runbook, and sealed boxes of already-printed Phoenix store material are stacked nearby."
 >
 
 <!-- Chapters 12–13 -->
@@ -119,8 +109,8 @@ fonts:
 ---
 
 <NarrativeSlide number="07" title="Phoenix burns"
-  image1="Inside an automotive-parts store, point-of-sale terminals show error states, staff write manual receipts, duplicate order slips spill from a printer, and worried customers hold payment cards; exhausted support staff work in the background."
-  image2="Development and Operations stand on opposite sides of a cracked Phoenix release machine, initially pointing at each other, then beginning to repair the same broken mechanism together; Chris and Bill are clearly leading the joint effort."
+  image1="Documentary view inside an automotive-parts store: point-of-sale terminals show error states, staff write carbon-copy receipts, duplicate order slips spill from a printer, worried customers hold payment cards, and support staff troubleshoot behind the counter."
+  image2="Bill and Chris sit shoulder to shoulder at an incident workstation comparing a developer build log with an operations deployment log; each has highlighted a failed handoff, and they write one shared action list while technicians repair and retest behind them."
 >
 
 <!-- Chapters 14–15 -->
@@ -134,8 +124,8 @@ fonts:
 ---
 
 <NarrativeSlide number="08" title="The fourth type of work"
-  image1="A carefully planned work board is buried by a cascading wave of red incident tickets and emergency repairs; Phoenix consumes nearly every available lane while scheduled maintenance disappears underneath, concrete operational metaphor."
-  image2="Fifty million dollars’ worth of customer invoices visibly trapped in a stalled digital queue; in the foreground Bill places his company badge on a desk and walks away while Steve remains on an angry late-night phone call."
+  image1="Straight-on photograph of a physical work board: planned project and maintenance cards remain untouched in the backlog while current and in-progress columns are filled edge to edge with red Phoenix incident cards; a technician adds another timestamped incident."
+  image2="Steve’s office at night: a monitor shows an accounts-receivable batch with many invoices marked Failed, beside a printed cash forecast with a clearly readable $50M shortfall; Bill sets his badge on the desk and leaves while Steve holds the phone."
 >
 
 **15.** Bill then realizes what Erik calls the fourth type of work: **unplanned work**. Official schedules show projects, internal IT work and planned changes, but they do not show the incidents and emergency repairs consuming much of the organization’s capacity. Phoenix has displaced nearly all planned work, while the failures caused by Phoenix generate even more unplanned work.
@@ -149,8 +139,8 @@ fonts:
 ---
 
 <NarrativeSlide number="09" title="Stop starting. Start finishing."
-  image1="An overloaded intake funnel crammed with projects feeds shortcuts into a growing heap of technical debt, which in turn produces broken servers and emergency tickets; Steve and Bill examine the self-reinforcing cycle, no labels."
-  image2="A large project warehouse placed visibly in freeze: dozens of project crates are sealed behind barriers while only Phoenix, critical maintenance, and security work move along three clear lanes; side doors for private requests are locked."
+  image1="Close documentary view of an incident postmortem spread across a worktable: recurring failure reports are linked by matching ticket IDs to deferred maintenance items, emergency patches, and duplicate change requests; Bill and Steve trace the repeated IDs with markers."
+  image2="A portfolio-management board shows dozens of project rows marked PAUSED, with only Phoenix, critical maintenance, and security marked ACTIVE; at the side, an engineer returns an unapproved request form to a business manager at the intake desk."
 >
 
 <!-- Chapters 18–19 -->
@@ -164,8 +154,8 @@ fonts:
 ---
 
 <NarrativeSlide number="10" title="Protect flow, reduce risk"
-  image1="Brent demonstrates a critical server procedure while several senior engineers reproduce it independently from shared documentation; incoming work is redirected around him and the once-long queue begins to divide across capable people."
-  image2="John stands between a towering stack of audit paperwork and a factory line protected by practical guards, sensors, and emergency stops; Erik points toward the working safety controls that protect flow instead of producing paper."
+  image1="At adjacent identical server racks, Brent demonstrates a critical procedure while senior engineers reproduce it independently from a numbered shared runbook; the nearby ticket dashboard visibly reassigns incoming work from Brent to named engineers."
+  image2="On the plant floor, John holds a thick audit binder while Erik demonstrates an actual machine guard, light curtain, emergency stop, and completed inspection checklist; the protected machine continues operating behind the barrier."
 >
 
 <!-- Chapter 20 -->
@@ -181,8 +171,8 @@ fonts:
 ---
 
 <NarrativeSlide number="11" title="Work begins to flow"
-  image1="Patty arranges a physical Kanban board into three visually distinct lanes: work bypassing Brent, work increasing his capacity, and work requiring him; most task cards wait between overloaded stages rather than being worked."
-  image2="Small standardized work packets move smoothly through connected Development, QA, Operations, and Security stations; documentation and automation tools keep each handoff moving while oversized batches remain stopped outside the system."
+  image1="Patty moves cards on a physical Kanban board with three readable lane headings: Avoid Brent, Increase Capacity, and Needs Brent; queue columns are visibly fuller than the active-work column, and each card has an owner and date."
+  image2="Four adjacent monitors show the same small change with one matching ticket ID: a developer commit diff, an automated QA result, an Operations deployment checklist, and a Security scan result; one oversized batch request remains unopened in a backlog tray."
 >
 
 <!-- Chapters 22–23 -->
@@ -196,8 +186,8 @@ fonts:
 ---
 
 <NarrativeSlide number="12" title="Begin with business value"
-  image1="Sales orders, marketing campaigns, and finance reports appear as business outcomes resting on a previously hidden foundation of servers and software; John, Bill, and Patty trace each outcome down to its IT dependency."
-  image2="Security controls are installed directly inside a moving software delivery pipeline—automated checks, evidence capture, and risk gates beside Development and Operations—while a separate late-stage compliance barrier is dismantled."
+  image1="Artifact-focused dependency-mapping session: a printed sales-order workflow, marketing calendar, and finance close checklist are pinned beside a CMDB service map; Bill, Patty, and John draw specific lines between business steps and application or server cards."
+  image2="Close screenshot of a continuous-integration build with unit tests, security scan, and evidence archive stages all passing; beside it, a security engineer reviews a pull-request diff and attached threat-model checklist with a developer and operator."
 >
 
 <!-- Chapters 24–27 -->
@@ -211,8 +201,8 @@ fonts:
 ---
 
 <NarrativeSlide number="13" title="Feedback moves upstream"
-  image1="A production database cabinet opens to reveal one hidden custom configuration placed there after Sarah’s private request; beside it, the supposedly identical Development and QA environments lack that part, exposing configuration drift."
-  image2="A bright feedback path runs from live production monitors backward to developers designing the next version; Brent and Operations join a small cross-functional team early, before application and environment plans harden."
+  image1="Over-the-shoulder view of side-by-side terminal diffs for Production and QA: one extra database setting is highlighted only in Production, and the change history links it to Sarah’s private request; Brent and a DBA compare the screens."
+  image2="Close screenshot of a code-review pull request: a configuration diff has inline comments from Operations and Brent about capacity, logging, deployment, and the production environment; the developer replies and pushes an updated revision before merge."
 >
 
 <!-- Chapter 28 -->
@@ -228,8 +218,8 @@ fonts:
 ---
 
 <NarrativeSlide number="14" title="Toward continuous delivery"
-  image1="An automotive factory contrasts one huge slow production batch with many small batches moving through rapid machine changeovers; the small-batch line visually transforms into frequent safe software deployments."
-  image2="A value-stream map containing more than one hundred manual handoffs folds into a short automated route from code commit through matching environments, tests, packaging, security checks, and production deployment."
+  image1="Documentary factory view of two real production cells: one has a huge batch waiting during a long tool change, while the other processes small trays after a rapid die swap; Erik demonstrates the quick-change fixture to Bill."
+  image2="A wall value-stream map contains more than one hundred sticky notes with wait times; beside it, a laptop build run shows environment creation, tests, packaging, security scan, and deployment completed, while team members replace selected manual notes with automation cards."
 >
 
 <!-- Chapter 30 -->
@@ -245,8 +235,8 @@ fonts:
 ---
 
 <NarrativeSlide number="15" title="Unicorn learns at speed"
-  image1="Project Unicorn travels on a clean, separate delivery track built from matching environments and automated tests, rapidly delivering customer-analysis tools while the fragile Phoenix track runs beside it and begins adopting the same mechanisms."
-  image2="A slow analytics report expands across elastic cloud servers and becomes fast; alongside it, a small marketing experiment grows only after measured customer response, while QA and security tests run together in the same pipeline."
+  image1="Project Unicorn workspace with concrete artifacts: an infrastructure-as-code repository, matching environment manifests, green automated tests, and a deployed customer-analysis screen; on an adjacent monitor, an engineer copies the proven configuration template into the Phoenix repository."
+  image2="Split-screen workstation: a cloud console adds instances while a performance chart shows report runtime dropping; a marketing experiment dashboard shows a small cohort and conversion comparison, and the same build page records passing QA and security checks."
 >
 
 <!-- Chapter 32 -->
@@ -262,8 +252,8 @@ fonts:
 ---
 
 <NarrativeSlide number="16" title="The business rises"
-  image1="A busy automotive-parts store during Thanksgiving traffic remains operational as engineers toggle off one expensive feature, add server capacity, and safely deploy store tools; checkout lines move and sales indicators rise."
-  image2="A mechanical chaos monkey deliberately disconnects one component inside a redundant system; traffic automatically reroutes, monitoring detects the fault, and Development, QA, Operations, and Security calmly strengthen the weak point."
+  image1="Busy automotive-parts store during Thanksgiving: checkout terminals keep processing customers while an operations laptop at the service desk shows one feature flag switched off, capacity increasing, and a store-tool deployment marked Successful."
+  image2="Controlled resilience test at an operations console: an engineer triggers a failure-injection job against one service instance; the topology dashboard marks that instance red, reroutes requests to healthy instances, and records automatic detection for the runbook update."
 >
 
 <!-- Chapter 34 -->
@@ -279,8 +269,8 @@ fonts:
 ---
 
 <NarrativeSlide number="17" title="The Three Ways"
-  image1="Bill moves from an IT operations doorway onto the main business operations floor; ahead, a simple staircase leads toward a COO office while factory, retail, and technology work visibly operate as one connected system."
-  image2="One integrated value stream shown through three concrete paths: work flowing from Development to customer, operational feedback returning upstream, and a continuous loop of experiments, controlled failures, learning, and resilience; no written labels."
+  image1="In Steve’s glass office overlooking both the factory floor and IT status screens, Steve gives Bill a leadership-development memo and organization chart naming a COO track; Bill’s old IT badge and a new cross-business portfolio binder sit together on the desk."
+  image2="Straight-on view of three concrete artifacts sharing one build ID: a commit-to-production deployment record with timestamps, a production incident linked to a pull-request diff with inline comments, and a failure-injection experiment report with its resulting automated test."
 >
 
 **33.** Steve offers Bill a development path toward becoming Chief Operating Officer, explaining that technology is now inseparable from business operations. Parts Unlimited has not merely rescued Phoenix; it has changed how it selects, builds, deploys and improves technology.
