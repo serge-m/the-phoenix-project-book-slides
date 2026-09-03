@@ -172,7 +172,7 @@ fonts:
 
 <NarrativeSlide number="11" title="Work begins to flow"
   image1="Patty moves cards on a physical Kanban board with three readable lane headings: Avoid Brent, Increase Capacity, and Needs Brent; queue columns are visibly fuller than the active-work column, and each card has an owner and date."
-  image2="Four adjacent monitors show the same small change with one matching ticket ID: a developer commit diff, an automated QA result, an Operations deployment checklist, and a Security scan result; one oversized batch request remains unopened in a backlog tray."
+  image2="Straight-on view of a team Kanban board with explicit WIP limits printed above each column; blocked cards carry handoff timestamps, recurring maintenance cards reference numbered runbooks, and a nearby laptop shows a scheduled automation job completed successfully."
 >
 
 <!-- Chapters 22–23 -->
@@ -236,7 +236,7 @@ fonts:
 
 <NarrativeSlide number="15" title="Unicorn learns at speed"
   image1="Project Unicorn workspace with concrete artifacts: an infrastructure-as-code repository, matching environment manifests, green automated tests, and a deployed customer-analysis screen; on an adjacent monitor, an engineer copies the proven configuration template into the Phoenix repository."
-  image2="Split-screen workstation: a cloud console adds instances while a performance chart shows report runtime dropping; a marketing experiment dashboard shows a small cohort and conversion comparison, and the same build page records passing QA and security checks."
+  image2="Dual-monitor engineering workstation: a cloud console on the left adds instances beside a performance chart showing report runtime dropping; the right monitor shows a small-cohort marketing experiment with conversion results and a deployment run where QA and security checks both pass."
 >
 
 <!-- Chapter 32 -->
