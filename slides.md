@@ -64,7 +64,7 @@ fonts:
 
 <!-- Chapter 5 -->
 
-**6.** Bill meets **Erik Reid**, a prospective board member who takes him through one of the company’s manufacturing plants. Erik asks Bill to think about IT as a production system. Work must flow through a sequence of work centers, and the output of the entire system is limited by its most constrained resource. Starting more work cannot improve output when the constraint is already overloaded.
+**6.** Bill meets **Erik Reid**, a prospective board member who takes him through one of the company’s manufacturing plants. Erik asks Bill to think about IT as a production system: work must flow through a sequence of work centers, and the output of the entire system is limited by its most constrained resource **(flow and constraints — 1st Way)**. Starting more work cannot improve output when the constraint is already overloaded.
 
 </NarrativeSlide>
 
@@ -147,7 +147,7 @@ fonts:
   image2Src="/images/jpeg/paragraph-16-cash-shortfall-resignation.jpg"
 >
 
-**15.** Bill then realizes what Erik calls the fourth type of work: **unplanned work**. Official schedules show projects, internal IT work and planned changes, but they do not show the incidents and emergency repairs consuming much of the organization’s capacity. Phoenix has displaced nearly all planned work, while the failures caused by Phoenix generate even more unplanned work.
+**15.** Bill then realizes what Erik calls the fourth type of work: **unplanned work (4th type of work)**. Official schedules show **business projects (1st type)**, **internal IT work (2nd type)** and **planned changes (3rd type)**, but they do not show the incidents and emergency repairs consuming much of the organization’s capacity. Phoenix has displaced nearly all planned work, while the failures caused by Phoenix generate even more unplanned work.
 
 <!-- Chapters 16–17 -->
 
@@ -202,9 +202,9 @@ fonts:
 
 <!-- Chapters 22–23 -->
 
-**21.** Patty begins using Kanban boards to make service requests and other operational work visible. She separates work according to whether it avoids Brent, increases Brent’s capacity or depends on him. The team also studies why supposedly simple Phoenix tasks take so long and discovers that most of the delay occurs while work waits between overloaded teams.
+**21.** Patty begins using Kanban boards to make service requests and other operational work visible. She separates work according to whether it avoids Brent, increases Brent’s capacity or depends on him. The team also studies why supposedly simple Phoenix tasks take so long and discovers that most of the delay occurs while work waits between overloaded teams **(flow and queues — 1st Way)**.
 
-**22.** They respond by limiting work in progress, standardizing recurring tasks and improving handoffs. Instead of measuring how busy every individual appears, they begin measuring whether work is moving through the whole system. Preventive work, documentation and automation are treated as necessary investments rather than distractions from project delivery.
+**22.** They respond by limiting work in progress, standardizing recurring tasks and improving handoffs **(flow and WIP limits — 1st Way)**. Instead of measuring how busy every individual appears, they begin measuring whether work is moving through the whole system. Preventive work, documentation and automation are treated as necessary investments rather than distractions from project delivery.
 
 </NarrativeSlide>
 
@@ -221,7 +221,7 @@ fonts:
 
 **23.** John changes his approach and begins asking business leaders what they are trying to achieve and which risks actually threaten those objectives. Bill and Patty conduct similar interviews with Sales, Marketing and Finance. They discover that many business goals depend on IT, although IT was rarely involved when those goals and projects were selected.
 
-**24.** The teams begin evaluating projects and security controls according to business value and risk. Security specialists work with Development and Operations during ordinary work instead of delivering requirements immediately before release. This reduces separate compliance projects and allows controls and audit evidence to be built into the systems themselves.
+**24.** The teams begin evaluating projects and security controls according to business value and risk. Security specialists work with Development and Operations during ordinary work instead of delivering requirements immediately before release **(feedback and built-in quality — 2nd Way)**. This reduces separate compliance projects and allows controls and audit evidence to be built into the systems themselves.
 
 </NarrativeSlide>
 
@@ -240,7 +240,7 @@ fonts:
 
 <!-- Chapter 29 -->
 
-**26.** Erik introduces the **Second Way**: feedback must travel quickly from Operations back toward Development. Quality cannot be inspected into the product only at the end. Brent and Operations knowledge must be involved earlier, when applications and environments are being designed. The company forms a small cross-functional team to develop business features outside the main Phoenix release cycle.
+**26.** Erik introduces the **Second Way** **(feedback upstream — 2nd Way)**: feedback must travel quickly from Operations back toward Development. Quality cannot be inspected into the product only at the end. Brent and Operations knowledge must be involved earlier, when applications and environments are being designed. The company forms a small cross-functional team to develop business features outside the main Phoenix release cycle.
 
 </NarrativeSlide>
 
@@ -255,7 +255,7 @@ fonts:
 
 <!-- Chapter 30 -->
 
-**27.** At the manufacturing plant, Erik explains how smaller batches and shorter changeover times allow a factory to respond more quickly. He challenges Bill to imagine deploying software ten times a day. The goal is not speed for its own sake, but a deployment pipeline in which code, environments and configuration can move safely and repeatedly from Development to production.
+**27.** At the manufacturing plant, Erik explains how smaller batches and shorter changeover times allow a factory to respond more quickly **(flow and batch size — 1st Way)**. He challenges Bill to imagine deploying software ten times a day. The goal is not speed for its own sake, but a deployment pipeline in which code, environments and configuration can move safely and repeatedly from Development to production.
 
 <!-- Chapter 31 -->
 
@@ -274,11 +274,11 @@ fonts:
 
 <!-- Chapter 32 -->
 
-**29.** The team becomes **Project Unicorn**. Using common environments, automated tests and a system largely separated from Phoenix’s fragile components, it begins delivering customer-analysis and marketing capabilities far faster than before. Phoenix adopts some of the same practices after the rest of the organization sees that they work.
+**29.** The team becomes **Project Unicorn** **(business project)**. Using common environments, automated tests and a system largely separated from Phoenix’s fragile components, it begins delivering customer-analysis and marketing capabilities far faster than before. Phoenix adopts some of the same practices after the rest of the organization sees that they work.
 
 <!-- Chapter 33 -->
 
-**30.** When Unicorn’s reports are too slow, the team experiments with cloud computing and rapidly tests a solution. Marketing uses the new data for a small customer campaign, measures the response and expands what works. Security testing is integrated into the same automated process as QA testing, and defects can be corrected and redeployed within hours rather than waiting for another enormous release.
+**30.** When Unicorn’s reports are too slow, the team experiments with cloud computing and rapidly tests a solution **(experimentation — 3rd Way)**. Marketing uses the new data for a small customer campaign, measures the response and expands what works. Security testing is integrated into the same automated process as QA testing, and defects can be corrected and redeployed within hours rather than waiting for another enormous release.
 
 </NarrativeSlide>
 
@@ -297,7 +297,7 @@ fonts:
 
 <!-- Chapter 35 -->
 
-**32.** By January, severe incidents have become rare. Through initiatives such as **Project Narwhal** and the **Chaos Monkey**, teams deliberately inject failures to find weaknesses, improve monitoring and make systems more resilient. Development, QA, Operations and Security now work as one system, continuously learning instead of waiting for a crisis to force them together.
+**32.** By January, severe incidents have become rare. Through initiatives such as **Project Narwhal** and the **Chaos Monkey**, teams deliberately inject failures to find weaknesses, improve monitoring and make systems more resilient **(experimentation and resilience — 3rd Way)**. Development, QA, Operations and Security now work as one system, continuously learning instead of waiting for a crisis to force them together.
 
 </NarrativeSlide>
 
