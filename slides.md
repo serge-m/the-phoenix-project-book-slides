@@ -9,7 +9,10 @@ fonts:
 ---
 
 <div class="title-slide">
-  <h1>The Phoenix Project</h1>
+  <div class="title-block">
+    <h1>The Phoenix Project</h1>
+    <p class="title-credit">A book by Gene Kim, Kevin Behr &amp; George Spafford<br><span>Presentation by Sergey Matyunin</span></p>
+  </div>
 </div>
 
 ---
