@@ -4,6 +4,8 @@ defineProps<{
   title: string
   image1: string
   image2: string
+  image1Src?: string
+  image2Src?: string
 }>()
 </script>
 
@@ -11,14 +13,20 @@ defineProps<{
   <div class="narrative-slide">
     <div class="visual-grid">
       <div class="art-frame">
-        <div class="frame-id">{{ number }} A</div>
-        <div class="frame-crosshair" aria-hidden="true"></div>
-        <div class="frame-copy">{{ image1 }}</div>
+        <img v-if="image1Src" class="frame-image" :src="image1Src" :alt="image1" :title="image1">
+        <template v-else>
+          <div class="frame-id">{{ number }} A</div>
+          <div class="frame-crosshair" aria-hidden="true"></div>
+          <div class="frame-copy">{{ image1 }}</div>
+        </template>
       </div>
       <div class="art-frame">
-        <div class="frame-id">{{ number }} B</div>
-        <div class="frame-crosshair" aria-hidden="true"></div>
-        <div class="frame-copy">{{ image2 }}</div>
+        <img v-if="image2Src" class="frame-image" :src="image2Src" :alt="image2" :title="image2">
+        <template v-else>
+          <div class="frame-id">{{ number }} B</div>
+          <div class="frame-crosshair" aria-hidden="true"></div>
+          <div class="frame-copy">{{ image2 }}</div>
+        </template>
       </div>
     </div>
 
